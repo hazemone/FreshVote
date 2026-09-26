@@ -1,0 +1,48 @@
+{
+  "agents": 100,
+  "calibration_seed_range": [
+    1,
+    20
+  ],
+  "delays": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "diagnostic_limit": 0,
+  "evaluation_seed_range": [
+    21,
+    60
+  ],
+  "executed_size": 3840,
+  "expected_full_size": 3840,
+  "frozen_policies": [
+    {
+      "policy": "baseline"
+    },
+    {
+      "fixed_ttl": 9,
+      "policy": "hard_ttl"
+    },
+    {
+      "fixed_decay_lambda": 0.35,
+      "policy": "fixed_decay"
+    },
+    {
+      "adaptive_kappa": 1.5,
+      "policy": "adaptive_freshvote"
+    }
+  ],
+  "jitters": [
+    0,
+    2,
+    4
+  ],
+  "losses": [
+    0.0,
+    0.1
+  ],
+  "purpose": "primary held-out FreshVote evaluation",
+  "steps": 3000
+}

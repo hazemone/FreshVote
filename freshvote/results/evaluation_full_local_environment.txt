@@ -1,0 +1,16 @@
+2026-09-26T12:27:56+01:00
+Linux FBT-Ubuntu-HE 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+CPU(s):                                  32
+On-line CPU(s) list:                     0-31
+Model name:                              13th Gen Intel(R) Core(TM) i9-13900HX
+CPU(s) scaling MHz:                      32%
+NUMA node0 CPU(s):                       0-31
+Python 3.12.3
+numpy==2.5.3
+config==0.5.1
+iniconfig==2.3.0
+numpy==2.5.3
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
+pytest==9.1.1
