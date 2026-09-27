@@ -1,0 +1,5 @@
+policy,policy_label,delay,jitter,loss,runs,stable_correct,stable_correct_rate,stable_correct_wilson_low,stable_correct_wilson_high,stable_incorrect,no_stable_outcome,decision_median_seconds,decision_q25_seconds,decision_q75_seconds,decision_mean_seconds,message_acceptance,message_age_rejection_share,accepted_message_weighted_mean_age_ticks,transient_consensus_rate,post_hit_loss_rate
+adaptive_freshvote,FreshVote,6,4,0.1,40,40,1,0.9123783988,1,0,0,43.45,35.975,51.1,44.9675,0.9996924775,0.0003075225094,10.27431907,1,1
+baseline,Baseline,6,4,0.1,40,40,1,0.9123783988,1,0,0,39.65,35.3,46.15,40.5525,1,0,10.2747366,1,1
+fixed_decay,Fixed decay,6,4,0.1,40,40,1,0.9123783988,1,0,0,42.3,37.3,45.05,41.54,1,0,10.2747366,1,1
+hard_ttl,Hard TTL,6,4,0.1,40,40,1,0.9123783988,1,0,0,62.45,51.275,74.75,65.63,0.3451361433,0.6548638567,8.576251097,1,1

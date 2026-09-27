@@ -1,0 +1,33 @@
+policy,policy_label,loss,delay,runs,decision_median_seconds,decision_median_ci_low,decision_median_ci_high
+adaptive_freshvote,FreshVote,0,0,120,11.15,10.5,11.9
+adaptive_freshvote,FreshVote,0,2,120,18.15,17.3,19
+adaptive_freshvote,FreshVote,0,4,120,26.9,25.6,28.8
+adaptive_freshvote,FreshVote,0,6,120,35.6,33.55,37.6
+adaptive_freshvote,FreshVote,0.1,0,120,11.65,10.5,13
+adaptive_freshvote,FreshVote,0.1,2,120,19.85,18.95,21.7
+adaptive_freshvote,FreshVote,0.1,4,120,28,25.9,29.2
+adaptive_freshvote,FreshVote,0.1,6,120,35.8,34.3,38.3
+baseline,Baseline,0,0,120,12.1,10.8,12.7
+baseline,Baseline,0,2,120,19,17.4,21
+baseline,Baseline,0,4,120,26.5,24.4,28.05
+baseline,Baseline,0,6,120,33.75,32.1,35.6
+baseline,Baseline,0.1,0,120,12.3,11.6,13.4
+baseline,Baseline,0.1,2,120,18.85,17.3,21.5
+baseline,Baseline,0.1,4,120,28,26.9,30.2
+baseline,Baseline,0.1,6,120,38.05,35.9,39.6
+fixed_decay,Fixed decay,0,0,120,11.65,10.7,12.2
+fixed_decay,Fixed decay,0,2,120,17.8,17.3,19.85
+fixed_decay,Fixed decay,0,4,120,26.35,24.9,27.9
+fixed_decay,Fixed decay,0,6,120,36.7,35.3,38.7
+fixed_decay,Fixed decay,0.1,0,120,11,10.1,12.5
+fixed_decay,Fixed decay,0.1,2,120,18.25,17.1,20.2
+fixed_decay,Fixed decay,0.1,4,120,28.15,27,30.2
+fixed_decay,Fixed decay,0.1,6,120,37.05,35.5,39.7
+hard_ttl,Hard TTL,0,0,120,12.1,10.8,12.7
+hard_ttl,Hard TTL,0,2,120,19,17.4,21
+hard_ttl,Hard TTL,0,4,120,26.3,24.1,27.9
+hard_ttl,Hard TTL,0,6,120,40.45,37.2,44.9
+hard_ttl,Hard TTL,0.1,0,120,12.3,11.55,13.4
+hard_ttl,Hard TTL,0.1,2,120,18.85,17.3,21.5
+hard_ttl,Hard TTL,0.1,4,120,28.15,26.9,30.45
+hard_ttl,Hard TTL,0.1,6,120,43.15,40.7,47.4

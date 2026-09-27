@@ -1,0 +1,73 @@
+policy,policy_label,delay,jitter,loss,matched_pairs,correct_rate_difference_pp,correct_rate_difference_ci_low_pp,correct_rate_difference_ci_high_pp,paired_mean_time_delta_seconds,paired_mean_time_delta_ci_low,paired_mean_time_delta_ci_high,paired_median_time_delta_seconds,paired_median_time_delta_ci_low,paired_median_time_delta_ci_high,faster_pairs,tied_pairs,slower_pairs,mean_acceptance_difference_pp,delivered_message_counts_identical
+hard_ttl,Hard TTL,0,0,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,0,0,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,0,2,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,0,2,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,0,4,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,0,4,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,2,0,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,2,0,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,2,2,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,2,2,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,2,4,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,2,4,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,4,0,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,4,0,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,4,2,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,4,2,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,4,4,0,40,0,0,0,-0.49,-3.8275625,2.7425,1.85,-0.5,3.9,15,0,25,-25.49931928,True
+hard_ttl,Hard TTL,4,4,0.1,40,0,0,0,3.1275,-0.2300625,6.7625625,2.15,-2.25,6.65,17,0,23,-25.49615938,True
+hard_ttl,Hard TTL,6,0,0,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,6,0,0.1,40,0,0,0,0,0,0,0,0,0,0,40,0,0,True
+hard_ttl,Hard TTL,6,2,0,40,0,0,0,5.8975,1.597375,10.0350625,5.85,0.5,13.6,14,0,26,-42.50112866,True
+hard_ttl,Hard TTL,6,2,0.1,40,0,0,0,4.4925,0.1049375,9.0525,2.9,-1.6,8.2,15,0,25,-42.50324209,True
+hard_ttl,Hard TTL,6,4,0,40,0,0,0,19.09,13.3424375,25.5075625,15.25,10.65,28.45,6,0,34,-65.48565462,True
+hard_ttl,Hard TTL,6,4,0.1,40,0,0,0,25.0775,18.0099375,32.922875,19.95,15.45,26.35,5,0,35,-65.48619627,True
+fixed_decay,Fixed decay,0,0,0,40,0,0,0,0.06,-1.0075,1.08,0.1,-0.9,1.5,18,1,21,0,True
+fixed_decay,Fixed decay,0,0,0.1,40,0,0,0,-0.6875,-1.5475,0.18,-0.55,-1.8,0.9,22,1,17,0,True
+fixed_decay,Fixed decay,0,2,0,40,0,0,0,0.23,-0.9550625,1.4000625,0.4,-0.55,1.25,15,2,23,0,True
+fixed_decay,Fixed decay,0,2,0.1,40,0,0,0,-0.78,-2.2300625,0.655,-1.35,-2.2,1,24,1,15,0,True
+fixed_decay,Fixed decay,0,4,0,40,0,0,0,-0.89,-3.3225,2.0825625,-1.65,-3.55,0.25,25,1,14,0,True
+fixed_decay,Fixed decay,0,4,0.1,40,0,0,0,-1.355,-2.8725,0.135,-1.75,-3.65,0.25,25,1,14,0,True
+fixed_decay,Fixed decay,2,0,0,40,0,0,0,0.7475,-1.2375,2.7975625,0.2,-1,3.3,19,0,21,0,True
+fixed_decay,Fixed decay,2,0,0.1,40,0,0,0,0.2475,-1.8800625,2.205,0.9,-1.15,3.05,17,1,22,0,True
+fixed_decay,Fixed decay,2,2,0,40,0,0,0,-1.2625,-3.3475,0.74,0.2,-4.45,1.4,18,1,21,0,True
+fixed_decay,Fixed decay,2,2,0.1,40,0,0,0,0.6325,-1.6425625,3.0375,-0.05,-1.45,2.45,20,0,20,0,True
+fixed_decay,Fixed decay,2,4,0,40,0,0,0,-2.4625,-4.665,-0.2324375,-2.25,-4.3,0.3,25,0,15,0,True
+fixed_decay,Fixed decay,2,4,0.1,40,0,0,0,-1.91,-4.2025625,0.4875,-3.2,-4.95,0.6,25,1,14,0,True
+fixed_decay,Fixed decay,4,0,0,40,0,0,0,-0.03,-1.9200625,1.92,-0.65,-2.5,1.25,23,0,17,0,True
+fixed_decay,Fixed decay,4,0,0.1,40,0,0,0,0.215,-2.3125625,2.7401875,-0.15,-2.3,2.15,20,1,19,0,True
+fixed_decay,Fixed decay,4,2,0,40,0,0,0,1.04,-2.4325,4.3400625,1,-2.4,4.65,18,0,22,0,True
+fixed_decay,Fixed decay,4,2,0.1,40,0,0,0,-0.565,-2.9675,1.755,-0.25,-1.85,1.45,20,1,19,0,True
+fixed_decay,Fixed decay,4,4,0,40,0,0,0,-1.7775,-4.775,1.0700625,-0.9,-3.45,1.7,21,0,19,0,True
+fixed_decay,Fixed decay,4,4,0.1,40,0,0,0,0.8725,-1.4450625,3.225,0.5,-2.8,3.8,19,1,20,0,True
+fixed_decay,Fixed decay,6,0,0,40,0,0,0,3.1975,-0.0725,6.4025,3.85,0.2,7.55,12,1,27,0,True
+fixed_decay,Fixed decay,6,0,0.1,40,0,0,0,-1.2125,-5.135,2.575,1,-4.95,4.2,18,1,21,0,True
+fixed_decay,Fixed decay,6,2,0,40,0,0,0,1.6075,-2.9975,6.327625,3.4,-1.7,5.85,17,0,23,0,True
+fixed_decay,Fixed decay,6,2,0.1,40,0,0,0,-3.08,-7.1050625,0.765,-1,-4.95,2.15,23,0,17,0,True
+fixed_decay,Fixed decay,6,4,0,40,0,0,0,0.85,-2.7450625,4.457625,1.1,-3.15,5.4,20,0,20,0,True
+fixed_decay,Fixed decay,6,4,0.1,40,0,0,0,0.9875,-2.7625625,4.8725625,0.35,-2.95,6,19,1,20,0,True
+adaptive_freshvote,FreshVote,0,0,0,40,0,0,0,0.555,-0.1875625,1.3325,0.5,-0.65,1.5,17,1,22,-5.859983482,True
+adaptive_freshvote,FreshVote,0,0,0.1,40,0,0,0,-0.1175,-1.4475,1.3475,-0.3,-1.7,0.7,22,0,18,-5.611126485,True
+adaptive_freshvote,FreshVote,0,2,0,40,0,0,0,-0.4175,-1.59,0.735,-0.25,-2.25,1.35,22,0,18,-4.807617179,True
+adaptive_freshvote,FreshVote,0,2,0.1,40,0,0,0,-0.0725,-1.5875,1.495,-0.35,-2.85,1.35,22,1,17,-4.739741772,True
+adaptive_freshvote,FreshVote,0,4,0,40,0,0,0,-1.4625,-4.010125,1.5150625,-2.3,-3.9,-8.881784197e-16,26,0,14,-0.02740366169,True
+adaptive_freshvote,FreshVote,0,4,0.1,40,0,0,0,-2.19,-3.795,-0.755,-1.7,-3.2,-0.55,30,0,10,-0.03037476338,True
+adaptive_freshvote,FreshVote,2,0,0,40,0,0,0,0.2475,-1.7,2.0425625,0.95,-1.85,3.4,18,1,21,-5.862539546,True
+adaptive_freshvote,FreshVote,2,0,0.1,40,0,0,0,1.09,-0.8775,3.115,0.15,-0.55,2.15,17,2,21,-5.613992746,True
+adaptive_freshvote,FreshVote,2,2,0,40,0,0,0,-0.7875,-2.7925,1.2675,-0.35,-2.75,0.6,21,1,18,-4.80803147,True
+adaptive_freshvote,FreshVote,2,2,0.1,40,0,0,0,1.1775,-0.605,2.9375625,0.7,-1.85,3.3,18,0,22,-4.740124204,True
+adaptive_freshvote,FreshVote,2,4,0,40,0,0,0,-1.9025,-3.835,0.0325625,-1.85,-4.95,0.95,22,0,18,-0.02770492891,True
+adaptive_freshvote,FreshVote,2,4,0.1,40,0,0,0,-0.8725,-3.485,1.765,-2.05,-4.2,3.75,21,0,19,-0.03076788622,True
+adaptive_freshvote,FreshVote,4,0,0,40,0,0,0,2.4075,-0.3425625,5.2825,1.45,-1.75,6.3,18,0,22,-5.862745076,True
+adaptive_freshvote,FreshVote,4,0,0.1,40,0,0,0,-0.68,-3.27,1.8825625,-1.8,-3.8,2.6,21,0,19,-5.614329697,True
+adaptive_freshvote,FreshVote,4,2,0,40,0,0,0,1.285,-1.8925,4.32,2.45,0.7,3.95,13,0,27,-4.80797312,True
+adaptive_freshvote,FreshVote,4,2,0.1,40,0,0,0,0.585,-1.920125,2.9425625,1.15,-1.2,3.9,16,0,24,-4.740115474,True
+adaptive_freshvote,FreshVote,4,4,0,40,0,0,0,-2,-4.772625,0.9425,-2.5,-5.55,1.4,25,0,15,-0.02771759881,True
+adaptive_freshvote,FreshVote,4,4,0.1,40,0,0,0,-1.5375,-4.5475625,1.5450625,-3.65,-5.6,1.25,23,0,17,-0.03078199256,True
+adaptive_freshvote,FreshVote,6,0,0,40,0,0,0,2.175,-1.132625,5.405,1.7,-0.4,7.05,15,0,25,-5.863007298,True
+adaptive_freshvote,FreshVote,6,0,0.1,40,0,0,0,-3.33,-7.0675625,0.1325625,-1.65,-7.45,2.25,23,1,16,-5.614694669,True
+adaptive_freshvote,FreshVote,6,2,0,40,0,0,0,-0.8075,-4.6975,3.035,0.4,-4.15,1.95,19,0,21,-4.807930312,True
+adaptive_freshvote,FreshVote,6,2,0.1,40,0,0,0,-1.9075,-6.3850625,2.8900625,-3.05,-5.15,-0.35,27,0,13,-4.740031879,True
+adaptive_freshvote,FreshVote,6,4,0,40,0,0,0,1.2075,-2.545,4.8400625,2.35,-0.85,6.05,16,1,23,-0.02772492891,True
+adaptive_freshvote,FreshVote,6,4,0.1,40,0,0,0,4.415,0.389875,8.6126875,2.15,-3.35,8.8,18,0,22,-0.03079986,True

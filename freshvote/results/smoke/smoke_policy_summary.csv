@@ -1,5 +1,0 @@
-policy,runs,stable_correct_rate,transient_rate,mean_fresh_message_acceptance,total_age_rejections
-adaptive_freshvote,16,1.0,1.0,0.9565318226965729,40145
-baseline,16,1.0,0.875,1.0,0
-fixed_decay,16,1.0,1.0,1.0,0
-hard_ttl,16,0.6875,0.8125,0.546572904007679,416415

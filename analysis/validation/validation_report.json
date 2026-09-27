@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "expected_rows": 3840,
+  "observed_rows": 3840,
+  "unique_run_keys": 3840,
+  "factor_cells": 96,
+  "factor_cells_with_40_runs": 96,
+  "manifest_exact_match": true,
+  "log_progress_entries": 3840,
+  "log_csv_exact_key_match": true,
+  "completion_marker_present": true,
+  "outcome_counts": {
+    "correct": 3840
+  },
+  "policy_outcome_counts": {
+    "baseline": {
+      "correct": 960,
+      "incorrect": 0,
+      "none": 0
+    },
+    "hard_ttl": {
+      "correct": 960,
+      "incorrect": 0,
+      "none": 0
+    },
+    "fixed_decay": {
+      "correct": 960,
+      "incorrect": 0,
+      "none": 0
+    },
+    "adaptive_freshvote": {
+      "correct": 960,
+      "incorrect": 0,
+      "none": 0
+    }
+  },
+  "sha256": {
+    "manifest": "3e4356587e9d1d56dff311d366c4e9589038f00fa3286c36accf0033c4d67012",
+    "evaluation_csv": "9950b5d9dc363d073a93a6ae1af5f66d6b1892a458fd0e321a5ee40743038362",
+    "execution_log": "9a4740d666ad065ebb278119851960236329fb85809e4a10b7849d9a9733636b"
+  },
+  "issue_counts": {},
+  "error_samples": [],
+  "warnings": [
+    {
+      "category": "environment_record_not_in_archive",
+      "detail": "The archive does not contain Python/NumPy versions or pip freeze; request them from the execution machine for the reproducibility record."
+    }
+  ]
+}

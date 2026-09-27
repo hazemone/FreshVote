@@ -1,0 +1,4 @@
+policy,faster,slower,ties
+hard_ttl,174,38,28
+fixed_decay,199,28,13
+adaptive_freshvote,199,29,12

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "FreshVote: Adaptive Receiver-Side Message Freshness for Swarm Decisions Under Delayed and Cached Communication"
+type: software
+authors:
+  - family-names: Eissa
+    given-names: Hazem
+    affiliation: "School of Computer Science and Engineering, University of Sunderland"
+  - family-names: Htet
+    given-names: Thant Minn
+    affiliation: "School of Computer Science and Engineering, University of Sunderland"
+repository-code: "https://github.com/hazemone/FreshVote"
+date-released: 2026-09-27
+# TODO after acceptance: add "preferred-citation" with the ROBOCOM 2027 / IEEE CCNC 2027 proceedings entry and DOI.

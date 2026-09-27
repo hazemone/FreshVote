@@ -1,0 +1,19 @@
+{
+  "analysis": "FreshVote locked primary evaluation",
+  "input": "/home/ubuntu/freshvote_project/freshvote/results/evaluation_full_local/evaluation_runs.csv",
+  "input_sha256": "9950b5d9dc363d073a93a6ae1af5f66d6b1892a458fd0e321a5ee40743038362",
+  "rows": 3840,
+  "matched_comparison_unit": "condition-seed pair",
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed_method": "first 64 bits of SHA-256 over stable comparison key",
+  "confidence_level": 0.95,
+  "time_conversion_seconds_per_tick": 0.1,
+  "censoring": "not activated; stable-correct event observed in every run",
+  "software": {
+    "python": "3.12.3",
+    "platform": "Linux-6.18.38+-x86_64-with-glibc2.39",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1"
+  }
+}

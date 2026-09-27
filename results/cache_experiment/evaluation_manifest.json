@@ -1,0 +1,47 @@
+{
+  "common": {
+    "steps": 6000,
+    "swap_tick": 3000,
+    "update_probability": 0.1,
+    "switch_probability": 0.01,
+    "retention": 600,
+    "threshold": 0.9,
+    "persistence": 100
+  },
+  "beacons": [
+    2,
+    10,
+    30
+  ],
+  "channels": {
+    "benign": {
+      "base_delay": 0,
+      "jitter": 0,
+      "loss": 0.0
+    },
+    "severe": {
+      "base_delay": 6,
+      "jitter": 4,
+      "loss": 0.1
+    }
+  },
+  "seeds": [
+    201,
+    240
+  ],
+  "frozen": {
+    "ttl": 20.0,
+    "lam": 0.1,
+    "kappa": 0.5
+  },
+  "calibration_condition": {
+    "beacon_period": 10,
+    "base_delay": 4,
+    "jitter": 2,
+    "loss": 0.1
+  },
+  "calibration_seeds": [
+    101,
+    115
+  ]
+}
