@@ -11,7 +11,7 @@ Hazem Eissa and Thant Minn Htet, School of Computer Science and Engineering, Uni
 
 ---
 
-## What this project is about
+## About the Project
 
 Robots in a swarm often act on opinions that were broadcast some time earlier. By the time a vote is used, its sender may have changed its mind or the environment may have changed. This repository asks a simple question: **when should a robot weight a received vote by how old it is?**
 
@@ -34,7 +34,7 @@ FreshVote is compared with three alternatives on identical seeds:
 
 The simulator models 100 mobile ground robots in a 200 × 400 m field with heterogeneous obstacles, 25 m line-of-sight links, distance-dependent delay, bounded jitter and packet loss, choosing between two options of quality 0.60 and 0.75.
 
-## Two experiments, two answers
+## Two experiments and two answers
 
 **Experiment 1: streaming votes, fixed option qualities (3,840 held-out runs).** Every neighbour broadcasts every 0.1 s tick and votes are used on arrival. All four policies reached correct consensus in every run, and FreshVote changed decision time by −0.12 s (95% CI [−0.69, 0.44]). Candidate ages differ by only a few ticks, so age carries almost no information. Delay itself still costs about 3.9 s of decision time per tick of base delay, but no receiver-side rule can remove that floor.
 
