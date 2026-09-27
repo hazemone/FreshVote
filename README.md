@@ -36,9 +36,9 @@ The simulator models 100 mobile ground robots in a 200 × 400 m field with heter
 
 ## Two experiments, two answers
 
-**Experiment 1 — streaming votes, fixed option qualities (3,840 held-out runs).** Every neighbour broadcasts every 0.1 s tick and votes are used on arrival. All four policies reached correct consensus in every run, and FreshVote changed decision time by −0.12 s (95% CI [−0.69, 0.44]). Candidate ages differ by only a few ticks, so age carries almost no information. Delay itself still costs about 3.9 s of decision time per tick of base delay, but no receiver-side rule can remove that floor.
+**Experiment 1: streaming votes, fixed option qualities (3,840 held-out runs).** Every neighbour broadcasts every 0.1 s tick and votes are used on arrival. All four policies reached correct consensus in every run, and FreshVote changed decision time by −0.12 s (95% CI [−0.69, 0.44]). Candidate ages differ by only a few ticks, so age carries almost no information. Delay itself still costs about 3.9 s of decision time per tick of base delay, but no receiver-side rule can remove that floor.
 
-**Experiment 2 — neighbour cache, periodic beacons, mid-run quality swap (960 held-out runs).** Robots beacon every 0.2, 1 or 3 s, keep the latest message from each neighbour (up to 60 s), and the option qualities swap at t = 300 s. Here age matters:
+**Experiment 2: neighbour cache, periodic beacons, mid-run quality swap (960 held-out runs).** Robots beacon every 0.2, 1 or 3 s, keep the latest message from each neighbour (up to 60 s), and the option qualities swap at t = 300 s. Here age matters:
 
 | Policy | Post-swap correct fraction [95% CI] | Δ vs baseline [95% CI] | Median recovery (s) | Runs not recovered |
 |---|---|---|---|---|
@@ -57,7 +57,7 @@ A hard TTL tuned at a 1 s beacon period fails at 3 s over a severe channel (it a
   <img src="figures/fig_exp1_delay.png" width="48%" alt="Experiment 1 decision time against base delay">
 </p>
 
-All parameters were tuned on training seeds and frozen before the held-out runs (Experiment 1: seeds 1–20 → 21–60; Experiment 2: seeds 101–115 → 201–240). The Experiment 2 calibration condition is not part of its test grid, so every test cell measures transfer.
+All parameters were tuned on training seeds and frozen before the held-out runs (Experiment 1: seeds 1-20 → 21-60; Experiment 2: seeds 101–115 → 201–240). The Experiment 2 calibration condition is not part of its test grid, so every test cell measures transfer.
 
 ## Repository layout
 
@@ -168,7 +168,7 @@ Both new runs write to `results/` next to the archived data; the analysis script
 
 - Runs are deterministic for a fixed software stack. Re-running the Experiment 2 cell used for Fig. 3 reproduced every stored value exactly.
 - Exact trajectories depend on the NumPy/Python build: an Experiment 1 run repeated under a different NumPy version can differ at the individual-run level, while aggregate results are stable. The archived data were produced with Python 3.12.3 / NumPy 2.5.3 (Experiment 1) and Python 3.11 / NumPy 2.4.4 (Experiment 2).
-- In Experiment 2 all four policies share the same motion, channel and cache random streams for a given seed, so policy comparisons are exactly paired.
+- In Experiment 2, all four policies share the same motion, channel and cache random streams for a given seed, so policy comparisons are exactly paired.
 - `results/SHA256SUMS.txt` lists checksums of the archived CSVs; verify with `cd results && sha256sum -c SHA256SUMS.txt`.
 - Calibration and smoke outputs are training or diagnostic data only and are never pooled with held-out results.
 
@@ -203,4 +203,5 @@ To be decided by the authors before the repository is made public.
 
 ## Contact
 
-Hazem Eissa, School of Computer Science and Engineering, University of Sunderland, UK.
+Hazem Eissa (hazemone@hotmail.com, hazem.eissa@sunderland.ac.uk), School of Computer Science and Engineering, University of Sunderland, UK.
+Thant Minn Htet (azurawhiston@gmail.com, bj22hr@student.sunderland.ac.uk), School of Computer Science and Engineering, University of Sunderland, UK.
